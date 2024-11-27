@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ecobazar-aem-react-spa" mode="merge"/>
+    <filter root="/content/ecobazar-aem-react-spa" mode="merge"/>
+    <filter root="/content/dam/ecobazar-aem-react-spa" mode="merge">
+        <exclude pattern="/content/dam/ecobazar-aem-react-spa(/.*)?"/>
+        <include pattern="/content/dam/ecobazar-aem-react-spa/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ecobazar-aem-react-spa/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ecobazar-aem-react-spa" mode="merge"/>
+</workspaceFilter>
