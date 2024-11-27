@@ -6,6 +6,11 @@ This project was created using below maven command:
 
     mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=49 -D appTitle="Ecobazar AEM React SPA" -D appId="ecobazar-aem-react-spa" -D groupId="com.ecobazar" -D aemVersion="6.5.8" -D frontendModule="react"
 
+## Pre-requisite
+* AEM Version: 6.5.17+
+* Maven Version: 3.3.9+
+* Java SE: 8, 11
+
 ## Modules
 
 The main parts of the template are:
